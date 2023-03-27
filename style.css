@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body{
+    background-color: beige;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #1a1a1a;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height:48px;
+    align-items: center;
+    color: white;
+    /* position : fixed ; */
+    
+}
+.brand img{
+    width:38px;
+    padding :0 8px
+    
+    
+}
+
+.brand{
+    display: flex;
+    align-items:center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding-left: 5px;
+}
+
+nav ul li{
+    padding-left: 8px;
+    font-size: 0.8rem;
+}
+
+.container{
+    min-height: 65.8vh;
+    background-color: black;
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin:23px auto;
+    width:65%;
+    border-radius: 10px;
+    padding:35px;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    
+}
+.bottom{
+    position: sticky;
+    background-color: #000000;
+    height: 80px;
+    bottom:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+    
+}
+#myprogress{
+    width: 80vw;
+    cursor:pointer;
+    
+}
+
+.icons{
+    
+    margin-top:10px;
+    cursor:pointer;
+    font-size: 0.5em;
+    
+}
+
+.songItem{
+    display:flex;
+    background-color: #fff9e1;
+    height: 30px;
+    margin: 12px 0;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    color:#1a1a1a;
+    opacity:80%;
+    font-size: 0.8rem;
+
+}
+.songItem img{
+    width: 27px;
+    margin:8px 18px;
+    border-radius: 5px;
+}
+.timestamp{
+    margin-right: 5px;
+}
+.songlistplay{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+}
+.songicon{
+    cursor:pointer;
+    margin-top:2px;
+}
+.gif{
+    position:relative;      
+    left:10vw;
+    bottom:10px;
+    display:flex;
+    align-items: center;
+    color: aliceblue;
+    position : fixed;
+    
+}
+.gif img{
+    
+    transition: 0.5s ease-in;
+    
+}
+#gifs{
+    position:relative;  
+    opacity : 0;
+}
+
+#gifz{
+    position:absolute;  
+    
+}
+
+#detail{
+    padding-left: 20px;
+    font-family: 'Varela Round', sans-serif;
+    opacity : 0;
+    transition: 0.8s ease-in;
+    
+}
