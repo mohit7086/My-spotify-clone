@@ -142,6 +142,7 @@ document.getElementById('next').addEventListener('click',()=>{
     songDetail.innerText = songs[index].song;
     audioElement.play();
     songDetail.style.opacity = 1;
+    gifz.style.opacity = 0;
     gifs.style.opacity = 1;
     masterplay.classList.remove('fa-play-circle');
     masterplay.classList.add('fa-pause-circle');
@@ -162,6 +163,7 @@ document.getElementById('previous').addEventListener('click',()=>{
     songDetail.innerText = songs[index].song;
     audioElement.play();
     songDetail.style.opacity = 1;
+    gifz.style.opacity = 0;
     gifs.style.opacity = 1;
     masterplay.classList.remove('fa-play-circle');
     masterplay.classList.add('fa-pause-circle');
@@ -171,28 +173,3 @@ document.getElementById('previous').addEventListener('click',()=>{
 })
 
 
-if(audioElement.currentTime>=audioElement.duration){
-//next 
-{
-    // if(index>=9){
-    //     index = 0; 
-    // }
-    // else{
-    //     index +=1;
-    // }
-
-    // audioElement.src = songs[index].filePath;
-    // audioElement.currentTime = 0;
-    // songDetail.innerText = songs[index].song;
-    // audioElement.play();
-    // songDetail.style.opacity = 1;
-    // gifs.style.opacity = 1;
-    // masterplay.classList.remove('fa-play-circle');
-    // masterplay.classList.add('fa-pause-circle');
-
-    console.log('hi');
-
-
-
-}
-}

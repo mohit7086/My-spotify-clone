@@ -110,14 +110,18 @@ nav ul li{
     display: flex;
     align-items: center;
     margin-right: 15px;
+    
 
 }
+
+
 .songicon{
     cursor:pointer;
     margin-top:2px;
+    font-size:medium;
 }
 .gif{
-    position:relative;      
+    
     left:10vw;
     bottom:10px;
     display:flex;
@@ -147,4 +151,28 @@ nav ul li{
     opacity : 0;
     transition: 0.8s ease-in;
     
+}
+
+@media screen and (max-width: 520px){
+
+    .container, .songItem{
+        font-size: 0.7rem;
+    }
+    #detail{
+        
+    }
+    .icons{
+    position: relative;
+    left: 35%;
+    }  
+}
+
+@media screen and (max-width:1150px) {
+    .icons{
+        position: relative;
+        left: 35%;
+        }
+        #detail{
+            font-size:65%;
+        }  
 }
